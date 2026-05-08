@@ -1,0 +1,63 @@
+# Build outputs
+bin/
+obj/
+out/
+publish/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+*.DotSettings.user
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/packages/
+project.lock.json
+project.assets.json
+
+# Test results / coverage
+TestResults/
+coverage/
+coverage.xml
+coverage.json
+*.coverage
+*.coveragexml
+*.trx
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+appsettings.Local.json
+appsettings.Development.local.json
+secrets.json
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
